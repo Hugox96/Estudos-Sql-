@@ -1,4 +1,4 @@
-# Estudos_Sql
+# Estudos_SQL
 
 Neste repositório irei armazenar meus estudos com SQL e banco de dados, com o intuito de aprender mais e evoluir no desenvolvimento do estudo.
 
