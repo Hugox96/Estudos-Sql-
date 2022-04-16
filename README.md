@@ -13,10 +13,20 @@ Fonte: https://dicasdeprogramacao.com.br/o-que-e-sql/
 
 Para criar o 1º Banco de dados no SQL utilizei o comando: 
  
-    <p>
+    
        Create Database bancoHugo; 
-    </p>
+    
     
  Sendo bancoHugo o nome do meu banco de dados.
  
+ ## Criando tabelas para o banco de dados
  
+ Agora que o banco de dados já está criado é possível criar tabelas onde colocaremos nossos atributos. Exemplo, criando uma tabela de usuários podemos colocar atributos que destacam nosso usuário como <b> nome, idade, endereço e emprego. <b>
+ 
+ 
+        Create TABLE usuarios( 
+        Id int, 
+        nome varchar(255),
+        idade int, 
+        endereço varchar(255), 
+        profissao varchar(255));
