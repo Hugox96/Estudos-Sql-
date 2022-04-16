@@ -49,7 +49,7 @@ Para criar o 1º Banco de dados no SQL utilizei o comando:
  
  Podemos adicionar novas colunas na tabela usuários com o comando Alter Table e Add, como abaixo:
   
-      ALTER TABLE Customers
+      ALTER TABLE usuarios
 
       ADD Email varchar(255);
  
