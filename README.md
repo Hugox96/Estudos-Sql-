@@ -55,5 +55,5 @@ Para criar o 1º Banco de dados no SQL utilizei o comando:
  
  Como resultado temos uma nova coluna na tabela usuários:
  
- 
+ ![tabela](https://user-images.githubusercontent.com/62472486/163689690-daf08805-5cd8-4bc4-9f56-b1eeed28aa08.png)
  
