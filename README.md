@@ -53,5 +53,7 @@ Para criar o 1º Banco de dados no SQL utilizei o comando:
 
       ADD Email varchar(255);
  
+ Como resultado temos uma nova coluna na tabela usuários:
+ 
  
  
