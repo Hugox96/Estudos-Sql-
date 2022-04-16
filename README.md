@@ -43,5 +43,6 @@ Para criar o 1º Banco de dados no SQL utilizei o comando:
  
      VALUES ('26', 'Hugo', '32', 'Abolição', 'Desenvolvedor');
  
+ ![tabela](https://user-images.githubusercontent.com/62472486/163656945-a30edcf6-34a9-4e92-be2b-bfee2c7e73af.png)
  
  
