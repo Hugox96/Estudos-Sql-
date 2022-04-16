@@ -57,3 +57,12 @@ Para criar o 1º Banco de dados no SQL utilizei o comando:
  
  ![tabela](https://user-images.githubusercontent.com/62472486/163689690-daf08805-5cd8-4bc4-9f56-b1eeed28aa08.png)
  
+ ## SQL Constrains
+ 
+ Constrains são utilizadas para gerir as regras de uma tabela de forma que a regra de negócios do Banco de Dados seja respeitada.
+ 
+ Um exemplo, em um banco de dados de usuários é importante que atributos como nome e email não sejam nulos para que seja possível identificar o usuário no   banco de dados. Assim, utilizamos o constrains NOT NULL para expecificar que essas colunas não podem ser vazias.
+ 
+ 
+ 
+ 
