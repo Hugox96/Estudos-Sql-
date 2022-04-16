@@ -30,3 +30,18 @@ Para criar o 1º Banco de dados no SQL utilizei o comando:
         idade int, 
         endereço varchar(255), 
         profissao varchar(255));
+ 
+ Como resultado temos: 
+ 
+ ![tabela](https://user-images.githubusercontent.com/62472486/163656568-7d3c5621-2c41-45a5-9631-3c1d49ab988f.png)
+ 
+  ## Inserindo valores na tabela 
+ 
+ Com a tabela criada vamos inserir os valores nela com os comandos Insert Into e Values:
+ 
+     INSERT INTO usuarios (Id, nome, idade, endereço, profissao)
+ 
+     VALUES ('26', 'Hugo', '32', 'Abolição', 'Desenvolvedor');
+ 
+ 
+ 
