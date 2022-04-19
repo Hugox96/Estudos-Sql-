@@ -76,6 +76,7 @@ Para criar o 1º Banco de dados no SQL utilizei o comando:
      MODIFY COLUMN profissao varchar(255) NOT NULL,
      MODIFY COLUMN Email varchar(255) NOT NULL;
  
- Agora podemos ver na figura abaixo que não se aceita mais valores nulos  
+ Agora podemos ver na figura abaixo que não se aceita mais valores nulos:  
 
+ ![not null](https://user-images.githubusercontent.com/62472486/164019459-a33c698a-b417-47eb-8f6e-230fcb488a43.png)
  
