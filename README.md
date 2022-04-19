@@ -110,4 +110,6 @@ Para criar o 1º Banco de dados no SQL utilizei o comando:
  Para começar é legal criar um fluxograma do banco de dados para entender as relações entre as tabelas, como abaixo:
  
  ![banco alves](https://user-images.githubusercontent.com/62472486/164059577-a4c49ab9-ea5f-4a34-aca2-208121f6174d.png)
+ 
+ 1º Criar o banco de dados e 2º Criar as tabelas com os ids
 
