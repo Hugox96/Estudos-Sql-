@@ -105,4 +105,4 @@ Para criar o 1º Banco de dados no SQL utilizei o comando:
  
  ![ex](https://user-images.githubusercontent.com/62472486/164043607-9de63945-be6d-4166-825e-162946ec5b4d.png)
  
- O exercicio pede para que se crie um banco de dados com as tabelas de 
+ O exercicio pede para que se crie um banco de dados com as tabelas de pessoas, clientes, gerentes e funcionarios
