@@ -101,4 +101,8 @@ Para criar o 1º Banco de dados no SQL utilizei o comando:
  
  ![primary](https://user-images.githubusercontent.com/62472486/164022754-ec2ae2cf-33df-4a2f-bef4-b0083f3c96be.png)
  
-
+## 1º Exercicio de Banco de Dados
+ 
+ ![ex](https://user-images.githubusercontent.com/62472486/164043607-9de63945-be6d-4166-825e-162946ec5b4d.png)
+ 
+ O exercicio pede para que se crie um banco de dados com as tabelas de 
