@@ -115,4 +115,5 @@ Para criar o 1º Banco de dados no SQL utilizei o comando:
  
  ![tabela](https://user-images.githubusercontent.com/62472486/164064281-3da94f0c-b54e-440e-88cc-553e74cfd364.png)
 
-
+Comite um erro não colocando tabela clientes_Conta, posso apagar a tabela com DROP TABLE.
+ 
