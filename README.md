@@ -88,8 +88,14 @@ Para criar o 1º Banco de dados no SQL utilizei o comando:
  
  Fonte: https://www.w3schools.com/sql/sql_primarykey.asp
  
- A coluna id da tabela usuarios será a primary key, neste caso, ela tem que ser modificada com o Alter Table e Modify para torna-la uma chave privada
+ A coluna id da tabela usuarios será a primary key, neste caso, ela tem que ser modificada com o Alter Table e Modify para torna-la uma chave privada.
  
+ Antes: 
  
+ ![prima](https://user-images.githubusercontent.com/62472486/164022447-1bceab49-f4a9-47b8-825e-b959c6336714.png)
  
+ Depois:
  
+    ALTER TABLE usuarios
+    MODIFY COLUMN id int PRIMARY KEY,
+
