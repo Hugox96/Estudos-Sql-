@@ -80,3 +80,16 @@ Para criar o 1º Banco de dados no SQL utilizei o comando:
 
  ![not null](https://user-images.githubusercontent.com/62472486/164019459-a33c698a-b417-47eb-8f6e-230fcb488a43.png)
  
+ Mas podemos observar que a coluna id não foi alterada, isso porque ela será uma coluna especial. Será a <b> private key (chave privada) <\b>
+ 
+  ## Primary Key 
+ 
+ A restrição PRIMARY KEY identifica exclusivamente cada registro em uma tabela. As chaves primárias devem conter valores UNIQUE e não podem conter valores  NULL.
+ 
+ Fonte: https://www.w3schools.com/sql/sql_primarykey.asp
+ 
+ A coluna id da tabela usuarios será a primary key, neste caso, ela tem que ser modificada com o Alter Table e Modify para torna-la uma chave privada
+ 
+ 
+ 
+ 
