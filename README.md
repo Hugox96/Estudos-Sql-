@@ -65,10 +65,15 @@ Para criar o 1º Banco de dados no SQL utilizei o comando:
  
  Vamos adicionar o constrain NOT NULL em nossas colunas para que elas não possam ficar vazias.
  
- Para isso vamos alterar a tabela usuários utilizando o ALTER TABLE e o comando MODIFY para adicionando o NOT NULL.
+ Para isso vamos alterar a tabela usuários utilizando o ALTER TABLE e o comando MODIFY para adicionando o NOT NULL no My SQL.
+
  
- 
- 
- 
- 
+     
+     ALTER TABLE usuarios
+     MODIFY COLUMN nome varchar(255) NOT NULL,
+     MODIFY COLUMN idade varchar(255) NOT NULL,
+     MODIFY COLUMN endereço varchar(255) NOT NULL,
+     MODIFY COLUMN profissao varchar(255) NOT NULL,
+     MODIFY COLUMN Email varchar(255) NOT NULL;
+
  
