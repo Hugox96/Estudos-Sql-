@@ -112,4 +112,7 @@ Para criar o 1º Banco de dados no SQL utilizei o comando:
  ![banco alves](https://user-images.githubusercontent.com/62472486/164059577-a4c49ab9-ea5f-4a34-aca2-208121f6174d.png)
  
  1º Criar o banco de dados e 2º Criar as tabelas com os ids
+ 
+ ![tabela](https://user-images.githubusercontent.com/62472486/164064281-3da94f0c-b54e-440e-88cc-553e74cfd364.png)
+
 
