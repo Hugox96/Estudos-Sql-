@@ -63,6 +63,12 @@ Para criar o 1º Banco de dados no SQL utilizei o comando:
  
  Um exemplo, em um banco de dados de usuários é importante que atributos como nome e email não sejam nulos para que seja possível identificar o usuário no   banco de dados. Assim, utilizamos o constrains NOT NULL para especificar que essas colunas não podem ser vazias.
  
+ Vamos adicionar o constrain NOT NULL em nossas colunas para que elas não possam ficar vazias.
+ 
+ Para isso vamos alterar a tabela usuários utilizando o ALTER TABLE e o comando MODIFY para adicionando o NOT NULL.
+ 
+ 
+ 
  
  
  
