@@ -118,5 +118,6 @@ Para criar o 1º Banco de dados no SQL utilizei o comando:
 Comite um erro não colocando tabela clientes_conta, posso apagar a tabela com DROP TABLE. 
  
  
+           
  DROP TABLE clientes_conta;
  
