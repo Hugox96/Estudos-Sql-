@@ -99,5 +99,6 @@ Para criar o 1º Banco de dados no SQL utilizei o comando:
     ALTER TABLE usuarios
     MODIFY COLUMN id int PRIMARY KEY;
  
+ ![primary](https://user-images.githubusercontent.com/62472486/164022754-ec2ae2cf-33df-4a2f-bef4-b0083f3c96be.png)
  
 
