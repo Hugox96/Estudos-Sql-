@@ -106,3 +106,8 @@ Para criar o 1º Banco de dados no SQL utilizei o comando:
  ![ex](https://user-images.githubusercontent.com/62472486/164043607-9de63945-be6d-4166-825e-162946ec5b4d.png)
  
  O exercício pede para que se crie um banco de dados com as tabelas de pessoas, clientes, gerentes, funcionários e contas.
+ 
+ Para começar é legal criar um fluxograma do banco de dados para entender as relações entre as tabelas, como abaixo:
+ 
+ ![banco alves](https://user-images.githubusercontent.com/62472486/164059577-a4c49ab9-ea5f-4a34-aca2-208121f6174d.png)
+
