@@ -1,0 +1,1 @@
+ALTER TABLE tabela_gerentes ADD tipo_gerente varchar(255) NOT NULL, ADD cargo_gerente varchar(255) NOT NULL;

@@ -1,0 +1,27 @@
+Relatório Banco SQL Hugo Alves
+
+1º Questão: A quantidade de gerentes cadastrados
+-- Usei um select simples para retonar a quantidade de ids na tabela_gerente
+   
+   SELECT id_gerente FROM tabela_gerentes; 
+    
+    **A mostrar registos de 0 - 8 (9 total)**
+
+
+----------------------------------------------------------------------------------------------------------------
+
+3º Quantos clientes tem mais de 10.000 na conta
+
+A tabela conta tem a chave estrangeira de cliente, posso fazer um Select com Where na tabela conta em referencia a clientes para ver quantos tem acima de 10.000.
+
+SELECT id_contas, numero_conta, saldo FROM tabela_contas WHERE saldo > R$: 10.000;
+
+No total deu: 5 clientes com saldos acima de R$: 10.000
+
+--------------------------
+  Id  | Numero da conta  |
+   4  |       897        |  
+   6  |       345        |
+   7  |       574        | 
+   8  |       896        |
+  10  |       154        |
