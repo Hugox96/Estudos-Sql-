@@ -11,3 +11,7 @@ FROM customers;
 
 -- Selecionando todas as colunos
 SELECT * From customers
+
+-- Selecionando comandos usando o in
+SELECT * FROM customers 
+WHERE City NOT IN ('New York', 'Los Angeles', 'Chicago');
