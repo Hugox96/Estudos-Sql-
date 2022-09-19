@@ -9,3 +9,19 @@ Where condição;
 Select jogadores 
 From flamengo
 Where name = 'Gabigol';
+
+
+-- Operadores Lógicos:
+-- = Igual
+-- != Não Igual
+-- > Maior que 
+-- < Menor que
+-- >= Maior ou igual que
+-- <= Menor ou igual que 
+-- BETWEEN 
+
+
+-- Exemplo: Selecionar os jogadores do flamengo onde idade é maior que 20 anos
+Select jogadores, idade 
+From flamengo
+Where idade > 20 
