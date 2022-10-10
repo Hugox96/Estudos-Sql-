@@ -1,0 +1,1 @@
+-- INNER JOIN is equivalent to JOIN. It returns rows when there is a match between the tables.
