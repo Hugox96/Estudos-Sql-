@@ -18,7 +18,9 @@ Order By customers_id
 -- Ex3: To get agent name column from agents table and cust name and cust city columns from customer table after joining said two tables with the following condition -
 -- working area of agents and customer city of customer table must be same
 
-
+-- Selecionando as colunas
 Select  AGENT_NAME, CUST_NAME, CUST_City
+-- Selecionando as tabelas
 From agents,customer
+-- Escrevendo a condição, muito importante escrever as tabelas.colunas.
 Where agents.WORKING_AREA = customer.CUST_CITY;   
