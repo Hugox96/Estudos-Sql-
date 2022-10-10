@@ -13,8 +13,12 @@ Where item.seller_id = customers.id
 Select custumers.id, custumers.name, orders.id, orders.name
 From custumers, orders
 Where custormers.id = orders.customers_id
-
 Order By customers_id
 
 -- Ex3: To get agent name column from agents table and cust name and cust city columns from customer table after joining said two tables with the following condition -
 -- working area of agents and customer city of customer table must be same
+
+
+Select  AGENT_NAME, CUST_NAME, CUST_City
+From agents,customer
+Where agents.WORKING_AREA = customer.CUST_CITY;   
