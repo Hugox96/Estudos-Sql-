@@ -13,6 +13,7 @@ Where item.seller_id = customers.id
 Select custumers.id, custumers.name, orders.id, orders.name
 From custumers, orders
 Where custormers.id = orders.customers_id
+
 Order By customers_id
 
 -- Ex3: To get agent name column from agents table and cust name and cust city columns from customer table after joining said two tables with the following condition -
