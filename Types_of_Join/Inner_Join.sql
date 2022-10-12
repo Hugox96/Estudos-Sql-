@@ -19,7 +19,6 @@ FROM  foods INNER JOIN company on foods.company_id  = company.company_id;
 -- Ex 2:
 -- You are working at a supermarket and you need to arrange products by categories. 
 -- You are given the following tables:
-
 Select products.productname, products.price, categories.categoryname
 From products INNER JOIN categories
 on products.categoryid = categories.id
