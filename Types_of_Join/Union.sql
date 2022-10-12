@@ -19,3 +19,15 @@ SELECT city from Customers
 Union
 -- Aqui selecionamos a coluna(cidade) da tabela suppliers
 Select city from Suppliers
+
+
+-- Union with Where
+
+--The following SQL statement returns the German cities (only distinct values) 
+-- from both the "Customers" and the "Suppliers" table:
+Select city from Customers
+Where city = "Germany"
+Union
+Select city from Suppliers
+where city = "Germany"
+
