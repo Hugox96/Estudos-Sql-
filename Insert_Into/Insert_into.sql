@@ -3,7 +3,6 @@
 -- The SQL INSERT INTO syntax is as follows:
 
 --Syntax:
-
 Insert into Tabela_nome
 value (value1,value2,value3);
 
