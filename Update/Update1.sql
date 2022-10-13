@@ -9,6 +9,9 @@ Where condition;
 
 -- Ex1:
 
+--1º Atualizamos a tabela de empregados
 Update Employees
+-- 2º Definimos o que será atualizado
 Set Salary=5000
+-- 3 Definimos onde será atualizado
 Where ID=1;
