@@ -22,9 +22,8 @@ Ex 2: You plan to add two more vehicles to your garage:
 7, 'Porsche', 'Panamera', 2020
 
 /*Write a query to insert the new cars into your table named 'Garage'. 
-Then show the table with the added records. */
-
+Then show the table with the added records.*/
 Insert into garage
 values (4,'Mercedes-Benz', 'G 63', 2020),
        (7,'Porsche', 'Panamera', 2020);
-select from garage      
+select * from garage      
