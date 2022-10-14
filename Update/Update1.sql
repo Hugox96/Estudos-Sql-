@@ -15,3 +15,15 @@ Update Employees
 Set Salary=5000
 -- 3 Definimos onde será atualizado
 Where ID=1;
+
+-- It is also possible to UPDATE multiple columns at the same time by comma-separating them:
+Update Employees
+Set Salary=5000, FirstName= "Hugo"
+Where ID=1;
+
+-- Delete: 
+--The DELETE statement is used to remove data from your table. DELETE queries work much like UPDATE queries.
+
+Delete tabela_nome
+Where condição;
+
