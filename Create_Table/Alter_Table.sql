@@ -45,3 +45,11 @@ drop column COUNTRY;
 ----------------------------------------------SQL  ALTER TABLE command is also used to rename columns: ----------------------
 ALTER TABLE agent1
 RENAME AGENT_NAME to Nome;
+
+
+-- Exercise 1:
+-- Add a column of type DATE called Birthday.
+
+Alter Table Person
+ADD Birthday DATE;
+

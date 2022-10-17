@@ -15,11 +15,11 @@ values ('flamengo', 'vasco', 'botafogo');
 -- Aqui definimos quais colunas terão dados novos
 Insert into employess (ID, firstname, lastname, age)
 -- Definimos os novos dados em ordem do que está escrito no insert into
-values (1,"Hugo","Alves",26)
+values (1,'Hugo','Alves',26)
 
-Ex 2: You plan to add two more vehicles to your garage:
-6, 'Mercedes-Benz', 'G 63', 2020
-7, 'Porsche', 'Panamera', 2020
+-- Ex 2: You plan to add two more vehicles to your garage:
+-- 6, 'Mercedes-Benz', 'G 63', 2020
+-- 7, 'Porsche', 'Panamera', 2020
 
 /*Write a query to insert the new cars into your table named 'Garage'. 
 Then show the table with the added records.*/
