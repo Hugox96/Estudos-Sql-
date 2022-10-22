@@ -25,3 +25,8 @@ Where name = 'Gabigol';
 Select jogadores, idade 
 From flamengo
 Where idade > 20 
+
+--Ex1: Select all records where the City column has the value "Berlin".
+Select * from customers
+where city = 'Berlin'
+
