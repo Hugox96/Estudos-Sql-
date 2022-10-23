@@ -20,8 +20,15 @@ Update Employees
 Set Salary=5000, FirstName= "Hugo"
 Where ID=1;
 
--- Delete: 
---The DELETE statement is used to remove data from your table. DELETE queries work much like UPDATE queries.
-Delete tabela_nome
-Where condição;
+-------------------------------------------The SQL DELETE Statement-----------------------------------------------------
+--------------------------------- The DELETE statement is used to delete existing records in a table.
 
+Delete from tabela_nome
+Where condition
+
+/* The following SQL statement deletes the customer "Alfreds Futterkiste" from the "Customers" table:*/
+Delete from Customers
+where customerName = 'Alfreds Futterkiste'
+
+-- Delete all the records from the Customers table.
+Delete from Customers

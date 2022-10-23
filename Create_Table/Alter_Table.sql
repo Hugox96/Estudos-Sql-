@@ -49,7 +49,6 @@ RENAME AGENT_NAME to Nome;
 
 -- Exercise 1:
 -- Add a column of type DATE called Birthday.
-
 Alter Table Person
 ADD Birthday DATE;
 

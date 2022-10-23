@@ -33,9 +33,23 @@ Create Table leaderboard(
 -- 1, Predator, 9500
 -- 2, JohnWar, 9300
 -- 3, NightWarrior, 8900
-
 Insert into leaderboard
 values(1, 'Predator', 9500),
       (2, 'JohnWar', 9300),
       (3, 'NightWarrior', 8900);
 select * from leaderboard      
+
+-- Criando um banco de dados:
+Create Database hugo;
+
+-- Apagando um banco de dados ou tabela:
+Drop Database hugo;
+Drop table tabela_nome;
+
+-- Apagando os dados de uma tabela, porém não a tabela:
+Truncate Table tabela_nome;
+
+/* O TRUNCATE TABLE funciona como a instrução DELETE, porém sem usar a cláusula WHERE.
+Entretanto, essa instrução é mais rápida e utiliza menos recursos de sistema e log de transações.*/
+
+
