@@ -2,7 +2,6 @@
 -- The basic syntax of an UPDATE query with a WHERE clause is as follows:
 
 -- Update sintax:
-
 Update tabela_nome
 Set coluna1=valor1, coluna2=valor2
 Where condition;
@@ -23,7 +22,6 @@ Where ID=1;
 
 -- Delete: 
 --The DELETE statement is used to remove data from your table. DELETE queries work much like UPDATE queries.
-
 Delete tabela_nome
 Where condição;
 

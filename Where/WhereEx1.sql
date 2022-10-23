@@ -30,3 +30,15 @@ Where idade > 20
 Select * from customers
 where city = 'Berlin'
 
+--EX2: Use the NOT keyword to select all records where City is NOT "Berlin".
+Select * from customers
+Where Not city = 'Berlin'
+
+--Ex3: Select all records where the City column has the value 'Berlin' and the PostalCode column has the value 12209.
+Select * from customers
+Where city = 'Berlin'
+and PostalCode = 1299
+
+--Ex4:Select all records where the City column has the value 'Berlin' or 'London'.
+Select * from customers
+Where city = 'Berlin' or city = 'London'
