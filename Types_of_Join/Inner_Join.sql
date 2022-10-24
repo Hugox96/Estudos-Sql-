@@ -22,3 +22,11 @@ FROM  foods INNER JOIN company on foods.company_id  = company.company_id;
 Select products.productname, products.price, categories.categoryname
 From products INNER JOIN categories
 on products.categoryid = categories.id
+
+--Ex3: Choose the correct JOIN clause to select all records from the two tables where there is a match in both tables.
+Select *
+From Orders
+-- Neste caso vamos utilizar o Inner Join para gerar uma tabela com as infos das duas
+Inner Join Customers
+On Orders.CustomerID=Customers.CustomerID;
+
