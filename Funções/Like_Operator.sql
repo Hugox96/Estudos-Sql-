@@ -22,3 +22,16 @@ Where coluna like pattern;
 -- WHERE CustomerName LIKE 'a_%' |	Finds any values that start with "a" and are at least 2 characters in length
 -- WHERE CustomerName LIKE 'a__%'|	Finds any values that start with "a" and are at least 3 characters in length
 -- WHERE ContactName LIKE 'a%o'  |	Finds any values that start with "a" and ends with "o"
+
+-- SQL LIKE Examples
+-- The following SQL statement selects all customers with a CustomerName starting with "a":
+Select * From customers
+Where CustomerName like 'a%';
+
+-- The following SQL statement selects all customers with a CustomerName ending with "a":
+Select * From customers
+Where CustomerName like '%a'
+
+-- The following SQL statement selects all customers with a CustomerName that have "or" in any position:
+Select * From customers
+Where CustomerName like '%or%'
