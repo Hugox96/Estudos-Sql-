@@ -40,6 +40,12 @@ Select sum(coluna_nome)
 From tabela_nome
 Where condition;
 
+--Ex: Use the correct function to return the number of records that have the Price value set to 18.
+Select count(*)
+From products
+Where price = 18;
+
+
 
 
 
