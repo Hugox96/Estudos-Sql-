@@ -39,3 +39,20 @@ SET total_receita = (SELECT SUM(mensalidade * `take rate`) FROM state_revenue);
 SELECT * FROM state_revenue;
 
 
+-- Buscando trazer o valor total de mensalidade por escola, um analista criou esse
+-- código SQL. Consegue nos dizer o que tem de errado com ele?
+
+SELECT escola, mensalidade
+
+From state_revenue
+
+Group by escola
+
+
+-- Aqui tá errado pq ele não usou nenhuma função agregadora com o group by, nesse caso seria o sum() mais apropriado.
+-- Já que ele deseja o valor total da mensalidade. Ficaria assim: 
+
+SELECT escola, SUM(mensalidade) AS total_mensalidade
+FROM state_revenue
+GROUP BY escola
+ORDER BY total_mensalidade DESC;
