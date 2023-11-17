@@ -24,3 +24,18 @@ FROM state_revenue
 ORDER BY total_receita DESC;
 
 
+----------------------------------------------- Versão 2 ----------------------------------------------------------
+-- Criando uma coluna nova para os valores de total_receita
+
+-- Adiciona a coluna total_receita
+ALTER TABLE state_revenue
+ADD COLUMN total_receita DECIMAL(10, 2);
+
+-- Atualiza os valores da nova coluna com base na sua consulta
+UPDATE state_revenue
+SET total_receita = (SELECT SUM(mensalidade * `take rate`) FROM state_revenue);
+
+-- Exibe a tabela para verificar as mudanças
+SELECT * FROM state_revenue;
+
+
