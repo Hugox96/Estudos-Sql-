@@ -14,7 +14,9 @@ id| mês | mensalidade | escola | take_rate |enrollment_take _rate
 5 |  2023-05-01| 820,00 |   Fisk 16% 13%
 6 | 2023-06-01 | 500,00 |   Fisk 16% 13%
 
+----------------------------------------------- Versão 1 ----------------------------------------------------------
 
-select sum(mensalidade * take rate)
-from state_revenue
-group by mensalidade
+-- Aqui selecionamos as colunas para mensalidade e take_rate para realizar o cálculo da receita total, criando um aliás
+SELECT SUM(mensalidade * `take rate`) AS total_receita
+FROM state_revenue
+ORDER BY total_receita DESC;
