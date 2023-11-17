@@ -18,5 +18,9 @@ id| mês | mensalidade | escola | take_rate |enrollment_take _rate
 
 -- Aqui selecionamos as colunas para mensalidade e take_rate para realizar o cálculo da receita total, criando um aliás
 SELECT SUM(mensalidade * `take rate`) AS total_receita
+-- Selecionamos a tabela
 FROM state_revenue
+-- Ordenamos o valor da receita total do menor para menor
 ORDER BY total_receita DESC;
+
+
