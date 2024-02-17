@@ -28,3 +28,8 @@ Alter Table Persons(
     Add primary key(id)
 )
 
+-- To drop a PRIMARY KEY constraint, use the following SQL:
+Alter Table Persons(
+    drop primary key
+)
+
