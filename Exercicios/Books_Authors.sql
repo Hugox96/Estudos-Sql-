@@ -5,3 +5,7 @@
 -- You need to select all the books with their authors, ordered by the author name alphabetically, then by the year in ascending order.
 -- The result set should contain only 3 columns: the book name, year and its author (name the column author). 
 
+SELECT Books.name, Books.year, Authors.name AS author
+FROM Books
+INNER JOIN Authors ON Books.author_id = Authors.id
+ORDER BY author, Books.year ASC;
