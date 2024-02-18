@@ -11,3 +11,9 @@ ON C.id = PN.customer_id
 SELECT C.*, PN.* 
 FROM Customers AS C JOIN PhoneNumbers AS PN 
 ON C.id = PN.customer_id
+
+-- This code works even without the AS, so the AS in alias isn't really necessary
+
+SELECT C.firstname, C.lastname, C.city, PN.number, PN.type 
+FROM Customers C JOIN PhoneNumbers PN 
+ON C.id = PN.customer_id 
