@@ -16,4 +16,4 @@ ORDER BY author, Books.year ASC;
 SELECT Books.name, Books.year, Authors.name as author 
 FROM Books, Authors 
 WHERE Books.author_id = Authors.id 
-ORDER BY author, Books.year
+ORDER BY author, Books.year ASC;
