@@ -5,3 +5,9 @@
 SELECT C.firstname, C.lastname, C.city, PN.number, PN.type
 FROM Customers AS C JOIN PhoneNumbers AS PN
 ON C.id = PN.customer_id
+
+-- In order to call all the columns at once, you can try this method; 
+
+SELECT C.*, PN.* 
+FROM Customers AS C JOIN PhoneNumbers AS PN 
+ON C.id = PN.customer_id
