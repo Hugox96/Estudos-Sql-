@@ -9,3 +9,11 @@ SELECT Books.name, Books.year, Authors.name AS author
 FROM Books
 INNER JOIN Authors ON Books.author_id = Authors.id
 ORDER BY author, Books.year ASC;
+
+--or
+
+
+SELECT Books.name, Books.year, Authors.name as author 
+FROM Books, Authors 
+WHERE Books.author_id = Authors.id 
+ORDER BY author, Books.year
