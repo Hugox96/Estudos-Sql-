@@ -6,3 +6,9 @@
 -- Write a query to get the author names and the number of books they have in the Books table.
 -- Note that some authors do not have any books associated with them. In this case, 
 -- the result needs to include their names and have 0 as the count. The count column should be called books in the result.
+
+Select authors.name, count(books.id) as books
+from Authors
+LEFT JOIN Books ON Books.author_id = Authors.id
+Group BY Authors.name
+ORDER BY Books DESC;
